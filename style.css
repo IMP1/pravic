@@ -8,11 +8,11 @@
 }
 
 .translation-example > blockquote[lang="en-gb"] {
-    color: rgb(128, 32, 32);
+    color: rgb(192, 48, 48);
 }
 .translation-example > blockquote[lang="pravlish"] {
-    color: rgb(96, 96, 32);
+    color: rgb(128, 128, 32);
 }
 .translation-example > blockquote[lang="pravic"] {
-    color: rgb(32, 128, 32);
+    color: rgb(48, 192, 48);
 }
