@@ -1,0 +1,18 @@
+.translation-example > blockquote {
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.translation-example > blockquote > p {
+    font-style: normal;
+}
+
+.translation-example > blockquote[lang="en-gb"] {
+    color: rgb(128, 32, 32);
+}
+.translation-example > blockquote[lang="pravlish"] {
+    color: rgb(96, 96, 32);
+}
+.translation-example > blockquote[lang="pravic"] {
+    color: rgb(32, 128, 32);
+}
