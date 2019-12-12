@@ -1,18 +1,35 @@
-.translation-example > blockquote {
+section.translation-example > blockquote {
     margin-bottom: 1rem;
     color: #000;
 }
 
-.translation-example > blockquote > p {
+section.translation-example > blockquote > p {
     font-style: normal;
 }
 
-.translation-example > blockquote[lang="en-gb"] {
+section.translation-example > blockquote[lang="en-gb"] {
     color: rgb(192, 48, 48);
 }
-.translation-example > blockquote[lang="pravlish"] {
+section.translation-example > blockquote[lang="pravlish"] {
     color: rgb(128, 128, 32);
 }
-.translation-example > blockquote[lang="pravic"] {
+section.translation-example > blockquote[lang="pravic"] {
+    color: rgb(48, 192, 48);
+}
+
+span.translation-example {
+    font-style: italic;
+    font-weight: bold;
+}
+
+span.translation-example[lang="en"] {
+    color: rgb(192, 48, 48);
+}
+
+span.translation-example[lang="pravlish"] {
+    color: rgb(128, 128, 32);
+}
+
+span.translation-example[lang="pravic"] {
     color: rgb(48, 192, 48);
 }
